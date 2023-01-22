@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <title>Encriptador de Texto Alura Latam</title>
+    </head>
+            <body>
+                <div class="principal">
+                    <img src="imagenes/logoalura.png" class="logoalura">
+                    <form>
+                <div class="texto"><textarea placeholder="Ingrese el texto aquí" class="text-area" maxlength="400" id="areatxt"></textarea></div>
+                <div class="abajo">
+                    <img src="imagenes/aviso.png" class="fotoaviso">
+                    <p class="aviso botones"><i class="fa-solid fa-circle-exclamation"></i>Solo letras minúsculas y sin acentos</p>
+                    <button class="encriptar botones" onclick="encriptado()">Encriptar</button>
+                    <button class="desencriptar botones" onclick="desencriptado()">Desencriptar</button>
+                </div> 
+                    </form>
+                <div class="vacio">
+                <div class="muñeco"><img src="imagenes/muñeco.png" class="muñeco"></div>
+                    <p class="no-encontrado"><b>Ningún mensaje fue encontrado</b></p>
+                    <p class="descripcion">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <p class="resultado"></p>
+                </div>
+                </div>
+                    <script src="script.js"></script>
+                    <footer>
+                        <p>&copy Copyright Christian Castañeda Liñán - 2023</p>
+                    </footer>
+            </body>
+</html>

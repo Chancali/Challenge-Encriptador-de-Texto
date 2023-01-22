@@ -1,0 +1,190 @@
+*{
+    font-family: 'Yeon Sung', cursive;
+}
+
+html{
+    background-color: #F3F5FC;
+}
+
+.principal form{
+    position: relative;
+    width: 98vw;
+    height: 72vh;
+}
+
+.vacio{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    right: 0;
+    top:0;
+    margin: 40px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.muñeco{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+br{
+    font-size: 24px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    left: 80px;
+    cursor:pointer;
+}
+
+.encriptar:hover{
+    transition: 1s;
+    background-color: #0d4fa0;
+    transform: scale(1.2);
+}
+
+.desencriptar{
+    background-color: #F3F5FC;
+    left: 35%;
+    cursor:pointer;
+    }
+
+.desencriptar:hover{
+    transition: 1s;
+    background-color: #D8DFE8;
+    transform: scale(1.2);
+    }
+
+.botones{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding:0;
+    width: 280px;
+    height: 37px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0;
+    margin:0 auto;
+}
+
+.aviso{
+    border: none;
+    margin-bottom: 25px ;
+    margin-left: 80px;
+    width: auto;
+}
+
+.logoalura{
+    margin: 18px 40px;
+}
+
+.fotoaviso{
+    margin: 95px 64px;
+}
+
+.text-area{
+    outline: none;
+    border: none;
+    font-size: large;
+    color: #0A3871;
+    height: 300px;
+    resize: none;
+    width: 75%;
+    font-size: 28px;
+    background-color:transparent;
+}
+
+.text-area:focus{
+    outline: none;
+    border: none;
+}
+
+i{
+    color: #495057;
+    margin-right: 5px;
+}
+
+.texto{
+    display: flex;
+    justify-content:center;
+    width: 65%;
+    margin-top: 50px;
+}
+
+::placeholder{
+    color: #495057;
+}
+
+.no-encontrado{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.result-container{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    right: 0;
+    top:0;
+    margin: 40px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: auto;
+    text-align: justify;
+    font-size: 20px;
+    color: #495057;
+}
+
+.copiar{
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding:0;
+    width: 80%;
+    height: 37px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    right: 11%;
+    bottom: 30px;
+    cursor:pointer;
+    }
+
+.copiado{
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    margin:20px;
+    color: #0A3871;
+}
+
+@media screen and (max-width: 1065px) {
+    /* Estilos para pantallas de tamaño de tablet */
+  }
+  
+@media screen and (max-width: 540px) {
+    /* Estilos para pantallas de tamaño de móvil */
+  }
