@@ -181,10 +181,14 @@ footer{
     color: #0A3871;
 }
 
-@media screen and (max-width: 1065px) {
-    /* Estilos para pantallas de tamaño de tablet */
+@media only screen and (max-width: 600px) {
+    /* reglas para pantallas pequeñas */
   }
   
-@media screen and (max-width: 540px) {
-    /* Estilos para pantallas de tamaño de móvil */
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    /* reglas para pantallas medianas */
+  }
+  
+  @media only screen and (min-width: 900px) {
+    /* reglas para pantallas grandes */
   }
